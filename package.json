@@ -1,13 +1,19 @@
 {
   "name": "aetherea",
-  "version": "1.0.0",
-  "description": "Aetherea - An amazing project",
+  "version": "1.1.0",
+  "description": "Aetherea - An amazing project with enhanced features",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"Linting not configured yet\""
   },
-  "keywords": ["aetherea", "project", "javascript"],
+  "keywords": ["aetherea", "project", "javascript", "es6", "modules"],
   "author": "applemilianoxx",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }

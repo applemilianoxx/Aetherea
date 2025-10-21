@@ -2,6 +2,11 @@
 
 Welcome to Aetherea! This is the beginning of something amazing.
 
+## Recent Updates
+- Enhanced with utility functions and user management
+- Added proper project structure with .gitignore
+- Updated to ES6 modules for modern JavaScript development
+
 ## Getting Started
 
 This project is just getting started. More documentation will be added as the project develops.
